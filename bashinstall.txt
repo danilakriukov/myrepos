@@ -1,0 +1,20 @@
+pwd - present working directory
+clear
+mkdir .ssh
+cd .ssh
+ls
+ssh-keygen.exe
+cat /c/Users/Пользователь/.ssh/id_rsa.pub
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC57+D1peE3O3RC0ni8ATPFSuuhnKS4QDjU4y6Bm2Zp5PFakFiNRCSMgw/g7HJcgxD/SQwC8ScKoFAP6yU5LzT1hNXjDkwN89UTn5ZXU5ovpuE0dUg8jL0qBuhA7WN26JaMfSbfEHc/IHT3Q0rtV5J6qihnySF5tp8JJkrI9ob1zlg8PQLvYdQ7DA3pUM0BVK5X7vDcD42Y0pVq0wdZ9NF76lFgJw56OLjBZaMg1F6Hd3UxZeKgQXpn9YhfSeie9NKIvCgrQU6boSkLabXjHb4oAaxyWSt3FW8rA8P2BhGoQj9JZ5pTDFiCKioDVa8keLjQbrCqDhP53Kj8GlBU3tTJhzV1frf13zxuWBpHnc7NDwIipFPYRQMLrR0fGcC8Sms5rg4iHgtuKBfoKGElQUWd4ZvCLfcPk3DiQ9/xhlx0SQ3GLKM5HdvwHdeuRTqUJz9qxLHvOTfS4hoyHz3U9lDPrIgOO6Nx6fOP8eyirn3VaBnkkQD+RagJ9VLz1sAvXbM= Пользователь@DESKTOP-K18KLD8
+
+C:\Users\Пользователь\Desktop\programs\git-repos
+cd /c/Users/Пользователь/Desktop/programs/git-repos
+
+git config --global user.name "Danila Kriukov"
+git config --global user.email "2018.danilakriukov@gmail.com"
+git config --global push.default matching
+git config --global alias.co checkout
+git init
+
+git add . 
