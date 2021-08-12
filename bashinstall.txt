@@ -17,4 +17,12 @@ git config --global push.default matching
 git config --global alias.co checkout
 git init
 
-git add . 
+git add .
+git commit -am "Initial Commit"
+
+git remote add origin https://github.com/danilakriukov/myrepos.git
+
+#To save changes
+git add .
+git commit -am "We made the first save"
+git push 
